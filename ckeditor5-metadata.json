@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    {
+      "name": "Kms editor",
+      "className": "KmsEditor",
+      "description": "Adds text to the editor.",
+      "path": "src/kmseditor.ts",
+      "uiComponents": [
+        {
+          "name": "kmsEditorButton",
+          "type": "Button",
+          "iconPath": "theme/icons/ckeditor.svg"
+        }
+      ]
+    }
+  ]
+}
